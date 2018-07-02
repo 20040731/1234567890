@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+    background-color:black;
+    color:whi<head>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+#nav {
+    line-height:60px;
+    background-color:#eeeeee;
+    height:1200px;
+    width:250px;
+    float:left;
+    padding:10px;
+}
+#section {
+    width:800px;
+    float:left;
+    padding:50px;
+}
+#footer {te;
+    clear:both;
+    text-align:center;
+   padding:10px;
+}
+p {
+	font-weight: bold;
+	font-style: italic;
+	text-align: justify;
+	font-family: arial;
+	color: black
+}
+h3{
+	text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+<div id="header">
+<h1>Oxford KS3 Science</h1>
+</div>
+
+<div id="nav">
+<h3></Biology>Biology</h3><br>
+<h4></chapter>chapter 1:New technology</h4><br/>
+<a href="http://www.science book1.com.cn">1.1 Genetics</a><br/>
+<a href="http://www.science book2.com.cn">1.2 Inherited discorders</a><br/>
+<a href="http://www.science book3.com.cn">Physics</a><br>
+<a href="http://www.science book4.com.cn">Chemistry</a><br>
+</div>
+<div id="section">
+<div class="container">
+<div class="jumbotron">
+  <h1>SCIENCE</h1>
+ </div>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+    <h2>INTRODUCTION</h2>
+    <p>welcome to your activate student book. This introduction shows you all the different feathures Activate has to support you on your journey through Key Stage 3 Science.
+</p>
+    <p>As you work through this Student Book, you will meet and build on some familiar concepts, as well as discovering new scientific ideas.
+</p>
+  </div>
+  <div class="col-md-4">
+    <h3>MATHS SKILLS</h3>
+    <p>Scientists use maths to help them solve problems and carry out their investigations. These boxes contain activities to help you practise the maths you need for science. They also contain useful hints and tips.</p>
+  </div>
+  <div class="col-md-4">
+    <h3>LITERACY SKIILS</h3>
+    <p>Scientist need to be able  to communicate their ideas clearly. These boxes contain activities and hints to help you build your reading, writting, listening, amd speaking skills.</p>
+  </div>
+<div class="col-md-4">
+<h3>WORKING SICENTIFICALLY</h3>
+<p>Scientists work in a particular way to carry out fair and scientist investigations. These boxes contain activities and hints to help you build these skills and understand the process so that you can work scientifically.
+
+
+</div>
+</div>
+
+
+</div>
+<img src='002.jpg'" width=142" height="150"/><br/>
+<img src='001.jpg' " width="450" height="242"/><br/>
+<a href="http://www.science book.com.cn">click here you will find more answers</a>
+<p><a href="https://www.wellingtoncollege.cn/shanghai/">wellington college shanghai </a> </p><br/>
+<p id="demo">click here we may find your position</p>
+<button onclick="getLocation()">have a try</button>
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+function showPosition(position)
+  {
+  x.innerHTML="Latitude: " + position.coords.latitude +
+  "<br />Longitude: " + position.coords.longitude;
+  }
+</body>
+</html>

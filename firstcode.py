@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Flask,render_template
 app = Flask(__name__)
 @app.route('/',methods=['GET','POST'])
 def index():
-    return 'hello world'
+    return render_template('wow.html')
 
 @app.route('/myname',methods=['GET','POST'])
 def show_my_name():
